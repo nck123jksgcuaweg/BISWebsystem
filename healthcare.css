@@ -1,0 +1,216 @@
+/*healthCare*/
+.board {
+    height: 70vh;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px rgb(180, 180, 180);
+    transition: 0.3s;
+}
+
+.board .text {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(69, 70, 72, 0.5);
+}
+
+.board .text p {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    margin-left: -14cm;
+    margin-top: 5cm;
+}
+
+.board img {
+    position: relative;
+    object-fit: cover;
+}
+
+.board:hover {
+    transition: 0.3s;
+    margin-top: -0rem;
+    opacity: 70%;
+    box-shadow: 0 0 20px 2px rgb(180, 180, 180);
+}
+
+/*healthCenter*/
+
+.pagelayout {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.contain {
+    height: 69.8vh;
+    width: 78%;
+    background-color: #448863;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: scroll;
+    scrollbar-width: none;
+    transition: 0.2s;
+    background-size: cover;
+}
+
+.contain img {
+    width: 100%;
+}
+
+
+.contain .hover {
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    padding-top: 25rem;
+}
+
+.contain .hover1 {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(44, 44, 44, 0.5);
+}
+
+.contain .hover .hover1 h1 {
+    color: #fff;
+    margin: 1.5rem;
+    font-weight: 600;
+}
+
+.contain .hover .hover1 .seemore {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+
+.contain .hover .hover1 p {
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 20;
+    position: absolute;
+    color: #fff;
+}
+
+
+.contain .hover img {
+    width: 5%;
+    height: 5vh;
+    margin-top: 4rem;
+    position: absolute;
+}
+
+
+.contain .hover:hover {
+    transition: 1s;
+    margin-top: -25rem;
+}
+
+    
+/*map*/
+.map {
+    width: 90%;
+    height: 2vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.mapbutton {
+    width: 6%;
+    height: 5vh;
+    background-color: lightgray;
+    cursor: pointer;
+    border: none;
+}
+
+.mapbutton p {
+    color: rgb(71, 69, 69);
+}
+
+.mapbutton:hover {
+    transition: 0.4s;
+    background-color: gray;
+}
+
+/*contents*/
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    display: none;
+    padding-top: 0rem;
+    color: #e8e8e8;
+}
+
+.contents .services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contents .products {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contents h1 {
+    margin-top: 3rem;
+}
+
+.contents h3 {
+    margin-top: 2rem;
+}
+
+.contents .space {
+    width: 10%;
+}
+
+ol li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.contents .column1, .column2 {
+    width: 100%;
+    padding-left: 2rem;
+}
